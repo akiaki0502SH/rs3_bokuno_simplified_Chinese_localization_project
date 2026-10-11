@@ -12,6 +12,8 @@
 
 所有本项目包均不包含ROM或私人存档。输出ROM的CRC32为477E6EBF，SHA256为D3F4B6300D811DC9B707CB85286573E43C2EB93DE729DA990AE5AD09ACE20E0E。
 
+工具快照的逐文件SHA256对应工具ZIP里的原始字节；Git源码文本可能经过换行规范化，核验原始快照请使用发行工具ZIP。补丁与程序二进制不受文本换行转换影响。
+
 完整补丁链与目标逐字节一致。菜单、字体和战斗框做过有限验证；新术自然获取、谢拉哈自然战斗和全流程仍待手测。中文自由姓名输入未提供，少见界面可能仍有漏网文字。请先备份存档并通过Issues反馈版本、场景、复现步骤与截图。
 
 [安装指南](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/blob/main/docs/INSTALL.md) · [已知限制](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/blob/main/docs/KNOWN_ISSUES.md) · [问题反馈](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/issues/new/choose)

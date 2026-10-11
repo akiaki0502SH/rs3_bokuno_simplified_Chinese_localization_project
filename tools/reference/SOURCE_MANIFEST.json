@@ -91,5 +91,6 @@
       "file": "sync_v287_sheraha_source_v1.py",
       "SHA256": "600A0492E1FC09BE437EC4DF3E814982B06C468788B38AA4A4D5AC0BC845A40F"
     }
-  ]
+  ],
+  "hash_scope": "Raw source-file bytes in bokuno_cn_v0.1_tools.zip; Git text line endings may be normalized."
 }
