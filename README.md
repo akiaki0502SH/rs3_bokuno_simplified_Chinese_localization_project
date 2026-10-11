@@ -4,6 +4,8 @@
 
 **v0.1 · 2026-10-11 · 首个公开测试版**。当前审阅并授权的译文已接入，正在进行实际游玩查漏和验收。只分发汉化补丁与工具，**不提供ROM**。
 
+**本汉化补丁禁止用于商业用途。转载、分享或二次发布必须注明本项目名称、维护者 akiaki0502SH 及原始发布地址，并保留本声明与原有致谢。** 详见[使用与转载声明](NOTICE.md#汉化补丁使用与转载声明)。
+
 [下载0.1测试版](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/tag/v0.1) · [Bokuno原补丁下载](https://ux.getuploader.com/romancingsaga312/download/560) · [安装说明](docs/INSTALL.md) · [已知限制](docs/KNOWN_ISSUES.md) · [反馈问题](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/issues/new/choose)
 
 ## 开始使用

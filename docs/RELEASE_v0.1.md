@@ -2,6 +2,8 @@
 
 适用于日文Bokuno Proto1.123，累计内容对应内部v287。当前审阅并授权的译文已接入，进入公开游玩测试。
 
+**本汉化补丁禁止用于商业用途。转载、分享或二次发布必须注明本项目名称、维护者 akiaki0502SH 及[原始发布地址](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project)，并保留本声明与原有致谢。** Flips等第三方工具沿用各自原许可证。详见[使用与转载声明](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/blob/main/NOTICE.md#汉化补丁使用与转载声明)。
+
 安装顺序：日文RS3 v1.1无头ROM → 作者Bokuno Proto1.123 IPS → 本汉化BPS或IPS。两种汉化格式任选一种，推荐BPS。
 
 - `bokuno_cn_v0.1_windows.zip`：补丁、官方Flips v198、许可证、对应源码和安装说明。
