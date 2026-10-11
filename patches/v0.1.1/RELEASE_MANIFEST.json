@@ -1,0 +1,49 @@
+{
+  "public_version": "0.1.1",
+  "tag": "v0.1.1",
+  "date": "2026-10-12",
+  "status": "prerelease",
+  "internal_build": "v288_font_geometry01",
+  "base": {
+    "game": "Bokuno Proto1.123 Japanese, headerless",
+    "bytes": 8388608,
+    "SHA256": "4793E1422295B8C13BA81B070B941288D36BE339FF20F914652CE63CC06F2DA0",
+    "CRC32": "7E165025"
+  },
+  "target": {
+    "bytes": 8388608,
+    "SHA256": "BCE976F8172B5D6F489E0311F44AB8CE2FE644CD14236813EE478DBE22F0D35C",
+    "CRC32": "1E208499"
+  },
+  "patch_chain": "RS3 Japanese v1.1 headerless -> original Bokuno Proto1.123 IPS -> one CN IPS or BPS",
+  "source_rs3": {
+    "bytes": 4194304,
+    "CRC32": "6C50C2CF",
+    "SHA256": "3EFA91F18CC6CD012BC213FF421813C113DF51E62F68180CC54C782F21616897"
+  },
+  "no_ROM_in_distribution": true,
+  "IPS_and_BPS_results_match_target_byte_for_byte": true,
+  "manual_gameplay_acceptance_in_progress": true,
+  "patches": [
+    {
+      "file": "bokuno_cn_v0.1.1_Proto1.123.bps",
+      "bytes": 415247,
+      "SHA256": "9765B3C24E2F76ADC8B297C38595898680CF1A99320D82933962823D89B1231E"
+    },
+    {
+      "file": "bokuno_cn_v0.1.1_Proto1.123.ips",
+      "bytes": 596158,
+      "SHA256": "3B2A797A50D16E21D7FF0C8C8B8D2B5E2A5DAF90F263AF3C6EAE0B6662B405D1"
+    }
+  ],
+  "font_fix": {
+    "CJK_singles_checked": 2673,
+    "CJK_singles_repositioned": 1719,
+    "all_strokes_preserved": true,
+    "right_edge_risk_singles_after": 0,
+    "normal_gameplay_regression_cases": 6,
+    "native_吗_娜_missing_pixels_after": 0,
+    "text_and_gameplay_code_unchanged": true,
+    "historical_composite_pairs_unchanged": true
+  }
+}

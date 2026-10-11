@@ -1,8 +1,8 @@
-"""Create/verify translation patches or apply v0.1 through an external Flips."""
+"""Create/verify translation patches or apply v0.1.1 through an external Flips."""
 from pathlib import Path
 import argparse,hashlib,json,subprocess
 BASE='4793E1422295B8C13BA81B070B941288D36BE339FF20F914652CE63CC06F2DA0'
-TARGET='D3F4B6300D811DC9B707CB85286573E43C2EB93DE729DA990AE5AD09ACE20E0E'
+TARGET='BCE976F8172B5D6F489E0311F44AB8CE2FE644CD14236813EE478DBE22F0D35C'
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest().upper()
 def run(flips,args):
  r=subprocess.run([str(flips)]+[str(x)for x in args],capture_output=True)
@@ -16,15 +16,15 @@ def main():
   if sha(args.input)!=BASE:raise SystemExit('Input must be the exact headerless Japanese Bokuno Proto1.123. Run verify_rom.py first.')
   if Path(args.output).exists():raise SystemExit('Output already exists; choose a new name.')
   run(args.flips,['--apply',args.patch,args.input,args.output])
-  if sha(args.output)!=TARGET:raise SystemExit('Output SHA256 does not match the v0.1 target; retain the input and inspect this output.')
-  print('PASS: output matches simplified Chinese v0.1')
+  if sha(args.output)!=TARGET:raise SystemExit('Output SHA256 does not match the v0.1.1 target; retain the input and inspect this output.')
+  print('PASS: output matches simplified Chinese v0.1.1')
  else:
   if sha(args.base)!=BASE or sha(args.target)!=TARGET:raise SystemExit('The base or target does not match v0.1.')
   dest=Path(args.output_dir).resolve()
   if dest.exists():raise SystemExit('Output directory already exists; choose a new directory.')
   dest.mkdir(parents=True);result=[]
   for fmt in ['ips','bps']:
-   patch=dest/f'bokuno_cn_v0.1_Proto1.123.{fmt}';check=dest/f'private_verification_{fmt}.sfc'
+   patch=dest/f'bokuno_cn_v0.1.1_Proto1.123.{fmt}';check=dest/f'private_verification_{fmt}.sfc'
    run(args.flips,['--create','--'+fmt,args.base,args.target,patch]);run(args.flips,['--apply',patch,args.base,check])
    if sha(check)!=TARGET:raise SystemExit('Roundtrip failed; do not distribute these outputs.')
    # Delete only the exact generated verification file after a checked roundtrip.

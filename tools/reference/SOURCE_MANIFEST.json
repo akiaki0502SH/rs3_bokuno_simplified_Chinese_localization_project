@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "internal_build": "v287",
+  "date": "2026-10-12",
+  "internal_build": "v288",
   "scope": "reference source snapshots, not standalone full build kit",
   "files": [
     {
@@ -68,8 +68,20 @@
       "SHA256": "3694DBED34F033153662F7D9D3698A11F0C50F6B9039A782D1121967553401BD"
     },
     {
+      "file": "build_v288_font_geometry_v1.py",
+      "SHA256": "FFB3F1C60F49D6D1A7D10D71E2F75F5A0618E4E15029CDDADF3D8E4032880AD2"
+    },
+    {
       "file": "dry_run_encoding_plan.py",
       "SHA256": "DD7AF9B1226D2BFBAD87535E853CB35BC3D58514C271738E02C560A304EBC607"
+    },
+    {
+      "file": "font_geometry_v1.py",
+      "SHA256": "0B5B1DD14B20174AFAC2DF59B721A07C153DDE17A3B41C406F0475DA4F42B850"
+    },
+    {
+      "file": "package_v288_font_geometry_v1.py",
+      "SHA256": "7578047FC1DD2BFDCB84AEF11BF374C089F65C042A127A775A56FAAF14923E80"
     },
     {
       "file": "render_font_candidates.py",
@@ -90,6 +102,14 @@
     {
       "file": "sync_v287_sheraha_source_v1.py",
       "SHA256": "600A0492E1FC09BE437EC4DF3E814982B06C468788B38AA4A4D5AC0BC845A40F"
+    },
+    {
+      "file": "verify_v288_font_geometry_v1.py",
+      "SHA256": "77F2035D76C94A2041D0A0D6802C2A039D060F0AC486E6CBAE335C01E99B0C2E"
+    },
+    {
+      "file": "verify_v288_native_pixels_v1.py",
+      "SHA256": "5E878A714109BBC8168AFE497E625BA88D126D2C0FD4A60DA4B6666FD83B2E66"
     }
   ],
   "hash_scope": "Raw source-file bytes in bokuno_cn_v0.1_tools.zip; Git text line endings may be normalized."
