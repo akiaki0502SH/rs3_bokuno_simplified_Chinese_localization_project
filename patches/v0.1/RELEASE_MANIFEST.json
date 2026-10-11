@@ -1,0 +1,39 @@
+{
+  "public_version": "0.1",
+  "tag": "v0.1",
+  "date": "2026-10-11",
+  "status": "prerelease",
+  "internal_build": "v287_sheraha_wording01",
+  "base": {
+    "game": "Bokuno Proto1.123 Japanese, headerless",
+    "bytes": 8388608,
+    "SHA256": "4793E1422295B8C13BA81B070B941288D36BE339FF20F914652CE63CC06F2DA0",
+    "CRC32": "7E165025"
+  },
+  "target": {
+    "bytes": 8388608,
+    "SHA256": "D3F4B6300D811DC9B707CB85286573E43C2EB93DE729DA990AE5AD09ACE20E0E",
+    "CRC32": "477E6EBF"
+  },
+  "patch_chain": "RS3 Japanese v1.1 headerless -> original Bokuno Proto1.123 IPS -> one CN IPS or BPS",
+  "source_rs3": {
+    "bytes": 4194304,
+    "CRC32": "6C50C2CF",
+    "SHA256": "3EFA91F18CC6CD012BC213FF421813C113DF51E62F68180CC54C782F21616897"
+  },
+  "no_ROM_in_distribution": true,
+  "IPS_and_BPS_results_match_target_byte_for_byte": true,
+  "manual_gameplay_acceptance_in_progress": true,
+  "patches": [
+    {
+      "file": "bokuno_cn_v0.1_Proto1.123.bps",
+      "bytes": 414951,
+      "SHA256": "707D4E59C45CBF9C8707C42AD66FB88DE082C671D08F00D8723FA591A313268A"
+    },
+    {
+      "file": "bokuno_cn_v0.1_Proto1.123.ips",
+      "bytes": 594941,
+      "SHA256": "73597FD72F8BC5FAFE2609DD20DC2F6EFEDA1955DC1E8230CB5CB4A0D81C7E5C"
+    }
+  ]
+}

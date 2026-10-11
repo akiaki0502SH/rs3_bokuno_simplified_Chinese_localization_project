@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-11",
+  "internal_build": "v287",
+  "scope": "reference source snapshots, not standalone full build kit",
+  "files": [
+    {
+      "file": "audit_missing_review_global_impact_20261011_v1.py",
+      "SHA256": "EC2B51EA26B34A138756C1C4E1B633C481BBE7EBD2205D20DBEBDC349C8FA418"
+    },
+    {
+      "file": "build_aline_m4_creation_ui_v1.py",
+      "SHA256": "C0A98E7E0D88581F94AFF0FAC94F4318FDD985411DDC0D5E0991A13D55A960F7"
+    },
+    {
+      "file": "build_character_creation_ui_payloads.py",
+      "SHA256": "B9E4EA7F75E2DBA8097306E67E4C9CD976560A5DA9B0D168BF9C62E82F06AB0A"
+    },
+    {
+      "file": "build_font_payloads.py",
+      "SHA256": "02CC117A52515DC26E34ECA63A1C3DDDC4C9854648919F9B60A7A5FF7D9012F8"
+    },
+    {
+      "file": "build_font_renderer_hook.py",
+      "SHA256": "B0A9E268230038AE27A31D94943A02C607ACBF711F1440E7F909BCA520C47592"
+    },
+    {
+      "file": "build_translation_patch_v1.py",
+      "SHA256": "EB2902658D78E7A9EF3A2111F6C6E52CE8286D3BE85C5173F0DBB95E92F50C5C"
+    },
+    {
+      "file": "build_v281_default_name_v1.py",
+      "SHA256": "E226574B7D0F4FAD539C7EA7BCCF749698BABF415D94A148A7573523325F61CC"
+    },
+    {
+      "file": "build_v281_display_v1.py",
+      "SHA256": "545322E17D641C0CF33CECD3530CD0A8E53D7A898E16AADB0A6F1992EBEE4317"
+    },
+    {
+      "file": "build_v281_latest06_v1.py",
+      "SHA256": "8F3CD258D2DBE54F0AE23F48144206EF66D626A5BC2C666071829CAACEE0E581"
+    },
+    {
+      "file": "build_v281_live_formations_v1.py",
+      "SHA256": "27062F3927F25A8384785DE01E073999E930043960154314C7910391AD82F85E"
+    },
+    {
+      "file": "build_v281_source_v1.py",
+      "SHA256": "9EAA026166B01A012DDD32E727384B64D7A8BECAAF2B19A484D95FAF4C44DF8D"
+    },
+    {
+      "file": "build_v283_missing_translations_v1.py",
+      "SHA256": "DDDDECC340E96C628202B952957E88A53EC3819C3A8E109B042BD43D9E079133"
+    },
+    {
+      "file": "build_v284_display_feedback_v1.py",
+      "SHA256": "7D59CDAD4F80D0A2584A60A95114DB647F6FC0617D076004E4FF9B86A193E6F6"
+    },
+    {
+      "file": "build_v285_center_and_yang_v1.py",
+      "SHA256": "15590235DA472DEF799D6AB378304B51EECA25399F651E4BAEA8C3BEBE872F09"
+    },
+    {
+      "file": "build_v286_four_spell_names_v1.py",
+      "SHA256": "3E93E091C606E0D1509F9EA62198155C2AE4F00E7A398127B0D150C2F40DF35A"
+    },
+    {
+      "file": "build_v287_sheraha_wording_v1.py",
+      "SHA256": "3694DBED34F033153662F7D9D3698A11F0C50F6B9039A782D1121967553401BD"
+    },
+    {
+      "file": "dry_run_encoding_plan.py",
+      "SHA256": "DD7AF9B1226D2BFBAD87535E853CB35BC3D58514C271738E02C560A304EBC607"
+    },
+    {
+      "file": "render_font_candidates.py",
+      "SHA256": "8E4FA5EB2A68CF52085C9D16941AFF87990D043E52F904331151D9099C5CD7FF"
+    },
+    {
+      "file": "scan_rom_inventory.py",
+      "SHA256": "4DEBE750FA9F26D5DC345F8496F361E918C31BB77285C3D185F9B38322A7D2E4"
+    },
+    {
+      "file": "snes9x_v266_regression_runner_v1.py",
+      "SHA256": "883C3581B37B6963D44ACED6F9EAE9371F536D54B44041D47C63C0DDEFC8A051"
+    },
+    {
+      "file": "sync_v286_four_spell_sources_v1.py",
+      "SHA256": "7D242295967F74E592CE27DF85BF3C72200A66FF1819697233EC74684BC34E8A"
+    },
+    {
+      "file": "sync_v287_sheraha_source_v1.py",
+      "SHA256": "600A0492E1FC09BE437EC4DF3E814982B06C468788B38AA4A4D5AC0BC845A40F"
+    }
+  ]
+}

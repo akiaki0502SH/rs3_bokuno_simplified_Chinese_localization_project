@@ -1,0 +1,444 @@
+{
+  "upstream": "https://github.com/Sir-Walrus/Flips",
+  "tag": "v198",
+  "commit_prefix": "359d414",
+  "original_source_archive_url": "https://api.github.com/repos/Sir-Walrus/Flips/zipball/v198",
+  "original_archive_SHA256": "194A5F061C6C82D8D62704781BC1E93C0239FCBE044A4511B1CE7221457B7617",
+  "source_code_and_build_scripts_unchanged": true,
+  "excluded_non_source_binary_benchmark_data": [
+    "Sir-Walrus-Flips-359d414/profile/firefox-10.0esr.tar",
+    "Sir-Walrus-Flips-359d414/profile/firefox-17.0esr.tar"
+  ],
+  "program_source_files": [
+    {
+      "file": "Sir-Walrus-Flips-359d414/.gitattributes",
+      "SHA256": "EB23CC7FCD2FF1D226B87AED346A75EB0F22E35FF01E7019AB667BD048A61FA4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.github/workflows/build-optimized.yml",
+      "SHA256": "F7208DD3E608C489CAA6EEADD4231456399B4BD0FEEC231F2C268D882C2DFBB4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.github/workflows/build-unoptimized.yml",
+      "SHA256": "EBBE4678964469258279C0C3CD5927677F43BD0B8DF871FB8AC65AED17F6B673"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.gitignore",
+      "SHA256": "C390D131A7144358586F7E6B251B188CD553D510E149409FAACA009D279B927B"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.vscode/c_cpp_properties.json",
+      "SHA256": "13A510FD732FD9EE2A50CC8C82A1AA71B431759F96340500E87E43505704BAD1"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.vscode/launch.json",
+      "SHA256": "6D6AEB35644FDD40E6EB05146934A44FB6463BF3A2D2099168533D1C003DF8ED"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.vscode/settings.json",
+      "SHA256": "1E1A7197CF2DC2BA1E78ECAF9293B6AF249AB6A9046C8BD3E26B4017E427F955"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/.vscode/tasks.json",
+      "SHA256": "E464F6A62D57F3E9A18067AD8169E07C85950B994C57AB602342F02BF6F40FB4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/COPYING",
+      "SHA256": "759DE06C3329988AC8CBC16B7991426659A893E8B36B5EBB0AAFB9009EBF5AF9"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/COPYING.gpl3",
+      "SHA256": "0B383D5A63DA644F628D99C33976EA6487ED89AAA59F0B3257992DEAC1171E6B"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/Makefile",
+      "SHA256": "67DE323E0582751CF341A44E37FB0C04A23826EB5096682DC8F6296C602F5064"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/README.md",
+      "SHA256": "26217066EDEF9012EB2B664F077DAC0178B8F8FB30E5E13786647E5F78836BDC"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/bps.ico",
+      "SHA256": "E7C5058015748930EC5DE9021FA74EFCBC52A31E72818DA34F20BFBA1E9619E4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/bps_spec.md",
+      "SHA256": "6A84FC7C59425E3938D0E7CCAB59FBAEE37037B2135374A81FCE5FB88905D303"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/configure",
+      "SHA256": "07DA2F63AD5713B255B74A97EF859AE9A6203A6E773534679B4030125704D04E"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/crc32.cpp",
+      "SHA256": "442CCC8862FF1EA37E96EEE3B28D2B8A95BFCE433CFC0B19E69AB478E1468AED"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/crc32.h",
+      "SHA256": "0BB5C7D793FE6908AE18342A45FC8D51FB8D8C315A2E127803938ADB75263964"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/data/com.github.Alcaro.Flips-symbolic.svg",
+      "SHA256": "FEA6D887F958E04599BAFFEE70B979C2753709CE580CF553B85B849D26BA54F0"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/data/com.github.Alcaro.Flips.desktop",
+      "SHA256": "AB90B26D96D19E8CEB981109F068E32188B69AE66EB3A2683A61DD96F3DC4B86"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/data/com.github.Alcaro.Flips.metainfo.xml",
+      "SHA256": "058E8AE61FA1E003596708C095EF8A7083F990E71375425010E8C4BB5CEC229F"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/data/com.github.Alcaro.Flips.svg",
+      "SHA256": "756EA278A716BE66FC85AE866B027FB19072D29800FDD9C9D4E68C28E99CC7D4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/data/flips-main-window.png",
+      "SHA256": "D0E485329A0B5F1282C24D85F7CDAF1F5E05FC5129E1680183AFDCBAB82CDB01"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/data/flips-preferences-window.png",
+      "SHA256": "243E393D45802245923401CBE4E59F09FC65CD8A83D4EE41DE754D919C195C85"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/divsufsort.c",
+      "SHA256": "92054805FEFB822BBAEFBD8241F90BFC495B0B872D570DAEAF9CD1D6F3267FF0"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/divsufsort.h",
+      "SHA256": "9DF884FB6211866C05815A31D4FAFAE0415C65F4FC6E677D9D7A5FC921A42381"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flatpak/com.github.Alcaro.Flips.json",
+      "SHA256": "BD490F13A2560942FFC9C13D6DE819D75A309155142E3E49467CB06A2CCDC14B"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips-cli.cpp",
+      "SHA256": "9D0C6FB35D55825C7E2B97CED2E9914CA9FFB886C6CED5F65555335FE66A38B8"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips-gtk.cpp",
+      "SHA256": "BE75C0439B2794BF8446F45B1B2C67B141849EBED59F4E0871434E80ED4EA4DB"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips-w32.cpp",
+      "SHA256": "BFD7F3A3910347374FB0B8629108A10AF98AB656E887F349F5AB5D4697787CB8"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips.Manifest",
+      "SHA256": "A58BC1B0C748F75CB33AE4AE609AC99C1CD403B0DD80B3B0D5C45ACDC49F0047"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips.cpp",
+      "SHA256": "404642F9A44F6D96D19D6C9E948CAA92DBC8B7256B8297D988DF3ACB0C7DE754"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips.h",
+      "SHA256": "4720717C6C6FE0601A28850FA99F14A16376084DCC28014908D443CAB1145091"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips.ico",
+      "SHA256": "B0FC13442F2DDEB1378475AE09EEF78A64F1EC57D8534270B92B351E3654A43C"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/flips.rc",
+      "SHA256": "871E0B0FE37E138ABCE1F7BEDCA9C36D926298E970D04089330AF53AB8C4568C"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/global.h",
+      "SHA256": "BEB60D93E29E647BC47ECE51D5037F5FD1210B84DFF7218E07A2EDA6AD294C3E"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/ips.ico",
+      "SHA256": "8C90F1EB68E5521122239D1280E325881737B2DE73E2805008E6759F38F9A354"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libbps-suf.cpp",
+      "SHA256": "563B248B6A71501C27317A6B75FD41BEC3F64CFAD68D03EA317E1ED0D34D2711"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libbps.cpp",
+      "SHA256": "484C62A528548CC958F4637921761C2EE48D6A22DFD04119237460E5F0F0CD30"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libbps.h",
+      "SHA256": "7CBD8EC60E2F8D4E72BD972529AA315B55EFFB75EACADF22AA142620175DC785"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/AUTHORS",
+      "SHA256": "EC16AD01AF6BD797BB134DD8DE99F95B06135DC7F828D135FE0EB99A298DA6F9"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/CMakeLists.txt",
+      "SHA256": "4132558E6A60C3F5296E1EF93C773EA3AA9DDC0B7172985C0F6141F322583CF5"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/CMakeModules/AppendCompilerFlags.cmake",
+      "SHA256": "B62781F8321A1EC772985CA93E94EFCF941FF363A8CEF25BEB67C8AC0468DF45"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/CMakeModules/CheckFunctionKeywords.cmake",
+      "SHA256": "4685280E78C3D46A555442D0FD2C202C91D5C252CB1F433DA3A11218268E3940"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/CMakeModules/CheckLFS.cmake",
+      "SHA256": "A7CA1C0A6429CED850EC20CFE4E2948C8E4CBE8B4315268871D8F3D99C9F817F"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/CMakeModules/ProjectCPack.cmake",
+      "SHA256": "502DF115AFA0BDEB0D8CAFAD0C341DF085BA3F119D9C26C6ADC1509E38FA68B6"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/CMakeModules/cmake_uninstall.cmake.in",
+      "SHA256": "23F659ADE124665D40E26435AAE92149FF06806C037E58F0312C189C19124055"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/COPYING",
+      "SHA256": "A025003CB0D491D21288F797E07FE21EE1DDDE50BB48D2A63A76B03307E94437"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/ChangeLog",
+      "SHA256": "A9553A1FF421A2E09316691CD2563231A74E3A94D54CCD9DE391859606344871"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/ChangeLog.old",
+      "SHA256": "B258CE3AF09B79EB809CC025DB398D5EF5CEBE1A3C87D0E762467E3F22BA8F4B"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/INSTALL",
+      "SHA256": "311D8A3F769BA9D70D5D8B435C357382AF6900C1159550960919630EBE1A1B70"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/Makefile.am",
+      "SHA256": "13CCA6694F28093E258333450A2AD2DCBF4FC6F499C9B65128A2516DBA5B95CF"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/Makefile.in",
+      "SHA256": "8F0670D47F939C920CFDB539300DE9CD51614E8577C2C9708F66C0E103136AD4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/NEWS",
+      "SHA256": "FD42EF1E6A19D0A30705CA444827BBA442394CB068B950B27C9ACD5B448589A5"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/README",
+      "SHA256": "359429FC7ABCA416F20E95746BA8E12F23CB7DEAD6DBD88D87F4C618D903E2E0"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/VERSION",
+      "SHA256": "FE840F52FB5578D3F77EB497115EB02C6036601C3A53E60DF7995C7276BAA77A"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/aclocal.m4",
+      "SHA256": "6A36C675EAD9D34C6E7D330F08ACC07872C4DF395350B173759F51CA87133F41"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/config/config.guess",
+      "SHA256": "90063746C9099B104AF2FB1161E2C4D136298F1ADA234A45400DFCA87D1180BF"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/config/config.sub",
+      "SHA256": "71DC03BE273B5D3B3C6294F21A44623499F96824EBB70FBC3141F8579242F8D4"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/config/depcomp",
+      "SHA256": "20EFDBD4F295E6B759A024FE045671DE5DB6066E2A210BE3296EEB9C38A1B238"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/config/install-sh",
+      "SHA256": "A42CCE53F5B376A4B1251E8D06E96DEAD9E858396D07333ED0CC83AA4B510023"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/config/ltmain.sh",
+      "SHA256": "F7052E821939841D77966CE993B8F0969ABB1C37F3C4EAD2667C3FF89B577699"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/config/missing",
+      "SHA256": "FD08CDCE99A06AEB2308DD3B78499EDC15C29EBC2DA23B059A931B38CC5B90F3"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/configure",
+      "SHA256": "3E83B3F8D86E9D579BEAE3291A99F74CA9AE54382CC9D8E121FB38DF72FA7E43"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/configure.ac",
+      "SHA256": "06ECC98AF4A2CE0E264AC19FC8C882D08F4D3F39B204CD2EBF58CC6373492580"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/CMakeLists.txt",
+      "SHA256": "75D820CE09217B803917F7C768AA81B8B0F6B819E014E536FFFC9AED887E0850"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/Makefile.am",
+      "SHA256": "2302C0BA2A7C518FB17AC1774E986E02407A9DCC8D4D8E9B0BD6EC33A4769A1D"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/Makefile.in",
+      "SHA256": "F5F1607856D66917C3682175E96073B55F8D24CBF5B58A1170DAFE117DFD2F22"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/bwt.c",
+      "SHA256": "094346385A946A279D3F75A567BF3283932CFA2549E710CAF54B6D59E7892D16"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/mksary.c",
+      "SHA256": "2B2C4BB9F6621DF0E7848311683F66022F599CF5450E5ECF8149BC823B15D450"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/sasearch.c",
+      "SHA256": "53227AFE095ABCAE31B75192B564D92494D28B2813942901EC27D137E5FBFB6A"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/suftest.c",
+      "SHA256": "293A60C5D0A22C0E4A40F520E42BBD092D0FE37AC229D132325113CFFA62A2C9"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/examples/unbwt.c",
+      "SHA256": "85FEF2337580ECACA0141907901770111E5C2A444750594BEA3F30C75F7FC6DD"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/CMakeLists.txt",
+      "SHA256": "EF8790895E346A63E6052AEE1191422AA9554C5356ED2F9692B1BB73F7202238"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/Makefile.am",
+      "SHA256": "1507981C6079F898A4E0B980EB4F5B5D684AB580C47F2C04BDBC7ADCC9088434"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/Makefile.in",
+      "SHA256": "D39DF7EA5E0256C0D4EAB46BD0201D0AEC12ECCAFD40B7910D0A0F0F9044250E"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/config.h",
+      "SHA256": "0479D281627AEB44A3CA0C2A8117C8793F2E17A49721ECDD3B0F34555BAADFCE"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/config.h.cmake",
+      "SHA256": "E9E6E74E5ECEACDDCC13880E54F577FF686ABCD7E932C970F88DDDA159937A89"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/config.h.in",
+      "SHA256": "2D496F3424D76508575C3A666DEDA78594F8C1C6BE25B948B4E2AB3C165FD0A1"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/divsufsort.h",
+      "SHA256": "0B6B3A20B3C1009CA97312D53ACA228D4A7C28FD8E59BCCE533A71AD50016B64"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/divsufsort.h.cmake",
+      "SHA256": "437F8FAB366989AD23DB798F62EB63C6662E725055EABF3E4922CD5DC722C866"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/divsufsort64.h.in",
+      "SHA256": "D3E980FEC8D31376DA18C6319182C4E6A6C653D55B023FF57A19B09F0BF50BE7"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/divsufsort_private.h",
+      "SHA256": "BF8AA7E54D7BA7E3D7EAB5FD4D5C032DBAC8A6C4DCE223D09C699C0E3A2C1392"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/include/lfs.h.cmake",
+      "SHA256": "FD5D085FF2A5EB225B06AC397AFAAB9070FF507689709391D7358B57A16012D1"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/CMakeLists.txt",
+      "SHA256": "F0B8C69EB1DC65E6F51669D0A492E4CE0888F4403A7420AAE3799E81F51CC560"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/Makefile.am",
+      "SHA256": "084A2B15E6C2539582BE2460A4C98818CDE763AB36D484E1C96C88E9F6515886"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/Makefile.in",
+      "SHA256": "4B8253C27A160AC0B90F9383018C9F9D53590F64AD79710DE5E50407053001E1"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/divsufsort.c",
+      "SHA256": "D25839D4EFE43C8AA60139FAB833138471BFA296244BC5601D5C6127FCAC6AAA"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/libdivsufsort.sym",
+      "SHA256": "D7A3DF427EB52480D93608A65CCAB3252122DE3E2A9BF4D0BD8A1421A1AA4D48"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/libdivsufsort64.sym",
+      "SHA256": "8A823769C781114F31B5548BE94C0EAB5E850F6F0F1465DAA860BD4DC842463A"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/sssort.c",
+      "SHA256": "4F37772021A9C5286C51F0494412E6F2D0B52CAF1E22A059EDCB2833178F9EB5"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/trsort.c",
+      "SHA256": "96D37FA16F07544AB23F2629ADAA490DECBCCEF3A1DD221E204F19FCB15D20C9"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/lib/utils.c",
+      "SHA256": "70D0814B04794934534D5B0CCE63C35EAEDF74F3F90F92FBE24186CA8FCF2CA0"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/m4/libtool.m4",
+      "SHA256": "BCC8A8305E600B073933CBDFBF894647FD5FC588B03B17D34E23C0C927EF7363"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/m4/ltoptions.m4",
+      "SHA256": "49B95E8E94FE3831E79DAA88D88528EE4CA6021239A839B50EC9A6DC2064E377"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/m4/ltsugar.m4",
+      "SHA256": "E8BFA437BE7AF72BF41B86E7E714BC8B8545046C339F80CFB5E69681BC97F90D"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/m4/ltversion.m4",
+      "SHA256": "788002F9A76B85C1790396635A13900355B942F8D7E93488D2DEE01086EC797A"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/m4/lt~obsolete.m4",
+      "SHA256": "C6C668594337AAFEF7D59F585BCE7010436153815FE341461D81301A2235B959"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/pkgconfig/CMakeLists.txt",
+      "SHA256": "3EACE4EE34B648B6E39BC83B8476C2DA705F8B2110C08D010001C247541AACF3"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libdivsufsort-2.0.1/pkgconfig/libdivsufsort.pc.cmake",
+      "SHA256": "308C2EC819358D7F0B3045507B022375A48C3FC4681F76E750D79F148453B7DB"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libips.cpp",
+      "SHA256": "CC9648E10964D7F67A7D3968162FAD40D0914441FF4ACB9F743ECD0D2A1DE3DD"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libips.h",
+      "SHA256": "28EC1FD2221AFC03C40EF924C6F2CB6F759B1405EC847E43F81EB13B5446D4AC"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libups.cpp",
+      "SHA256": "6B3B28F969F57CFFFF51C40728290630CFFE3FF138B607793F3EAA3638140A32"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/libups.h",
+      "SHA256": "CE794E3FD70EE42A5C6E2C21DF1207C19709B43A272583CF278B95D7F2FF3AF0"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/make-linux.sh",
+      "SHA256": "749456F77E0D193F5EF4E528442F1A9AD8F74F64BFFB4BF1B9E587ADE24F1B74"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/make-macos.sh",
+      "SHA256": "230B83CAFD8B7FBF80820BFD51D3E8AB9963CEBCB2C2D64F89A55B7B99791BCD"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/make-windows.sh",
+      "SHA256": "4E42F3659592A6D1032567F7B84F761F9C9E80A3955451E20642EDA95B4C352E"
+    },
+    {
+      "file": "Sir-Walrus-Flips-359d414/special.sh",
+      "SHA256": "1C129D4BFDE16642CFD1864BC7A340036C641FBDA7D956753B0F3C878E155D6D"
+    }
+  ],
+  "binary_SHA256": "CA6B364CCB23AB83FF0F4458F589EAC001E7BAF74315DECDE73C878A8EB519FD",
+  "license": "GPL-3.0-or-later"
+}
