@@ -4,12 +4,12 @@
 
 **v0.1 · 2026-10-11 · 首个公开测试版**。当前审阅并授权的译文已接入，正在进行实际游玩查漏和验收。只分发汉化补丁与工具，**不提供ROM**。
 
-[下载0.1测试版](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/tag/v0.1) · [安装说明](docs/INSTALL.md) · [已知限制](docs/KNOWN_ISSUES.md) · [反馈问题](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/issues/new/choose)
+[下载0.1测试版](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/tag/v0.1) · [Bokuno原补丁下载](https://ux.getuploader.com/romancingsaga312/download/560) · [安装说明](docs/INSTALL.md) · [已知限制](docs/KNOWN_ISSUES.md) · [反馈问题](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/issues/new/choose)
 
 ## 开始使用
 
 1. 自行准备日文《Romancing SaGa 3》**v1.1、无512字节头**的ROM。
-2. 应用Bokuno作者的 `ぼくのProto1.123.ips`，得到日文Bokuno Proto1.123。
+2. 从[Bokuno原补丁下载页](https://ux.getuploader.com/romancingsaga312/download/560)取得发行包，解压后应用 `ぼくのProto1.123.ips`，得到日文Bokuno Proto1.123。
 3. 用本项目提供的Flips应用简体中文补丁，**BPS和IPS任选一种**。
 
 **日文RS3 v1.1 → Bokuno Proto1.123 → 简体中文补丁**。推荐BPS，它会检查日文Bokuno底片是否匹配。
@@ -28,6 +28,7 @@
 
 |内容|入口|
 |---|---|
+|Bokuno原作者补丁（先应用）|[原补丁下载页](https://ux.getuploader.com/romancingsaga312/download/560)|
 |安装、底片校验、存档说明|[安装指南](docs/INSTALL.md)|
 |当前限制与测试范围|[已知限制](docs/KNOWN_ISSUES.md)、[测试建议](docs/TESTING.md)|
 |0.1内容与变更|[版本记录](docs/CHANGELOG.md)|
