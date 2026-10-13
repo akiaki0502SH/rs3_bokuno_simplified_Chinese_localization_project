@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "internal_build": "v288",
+  "date": "2026-10-14",
+  "internal_build": "v290",
   "scope": "reference source snapshots, not standalone full build kit",
   "files": [
     {
@@ -72,20 +72,48 @@
       "SHA256": "FFB3F1C60F49D6D1A7D10D71E2F75F5A0618E4E15029CDDADF3D8E4032880AD2"
     },
     {
+      "file": "build_v289_postbattle_word_order_v1.py",
+      "SHA256": "93AF908DAD2BF281B592E27228CA20776C57F5468E17509913D047D4A56422E6"
+    },
+    {
+      "file": "build_v290_font_baseline_v1.py",
+      "SHA256": "F3EAF986694ADAE50C97E956CE8471F3FF9B5BD2BFA85982574162A6F85E0438"
+    },
+    {
       "file": "dry_run_encoding_plan.py",
       "SHA256": "DD7AF9B1226D2BFBAD87535E853CB35BC3D58514C271738E02C560A304EBC607"
+    },
+    {
+      "file": "font_baseline_v1.py",
+      "SHA256": "E4753A5C70D16CAFEE20E468198B6C2B69D67DBCB811442994F3E51F3C023056"
     },
     {
       "file": "font_geometry_v1.py",
       "SHA256": "0B5B1DD14B20174AFAC2DF59B721A07C153DDE17A3B41C406F0475DA4F42B850"
     },
     {
+      "file": "mesen_v289_postbattle_probe_v1.lua",
+      "SHA256": "E4FB79F3EAAAB1B96E34177FE3921B1951D070FDFA052669BCAE9ADFAAB603A7"
+    },
+    {
       "file": "package_v288_font_geometry_v1.py",
       "SHA256": "7578047FC1DD2BFDCB84AEF11BF374C089F65C042A127A775A56FAAF14923E80"
     },
     {
+      "file": "package_v289_postbattle_word_order_v1.py",
+      "SHA256": "766F1F44F010ED75282F32739C7A7A2BF2F3D8424B4C5064E6484863EB159A7E"
+    },
+    {
+      "file": "package_v290_font_baseline_v1.py",
+      "SHA256": "8418EDCB76D248FED1BDA3DF9690AC2C57AB4E3CED4B98987A89FE25180DC232"
+    },
+    {
       "file": "render_font_candidates.py",
       "SHA256": "8E4FA5EB2A68CF52085C9D16941AFF87990D043E52F904331151D9099C5CD7FF"
+    },
+    {
+      "file": "run_v289_postbattle_probe_v1.ps1",
+      "SHA256": "883AE4C0205C340BD6ED2D9FF33F9BFF5D54E537F919C72E64FB7DC4961E7926"
     },
     {
       "file": "scan_rom_inventory.py",
@@ -110,6 +138,14 @@
     {
       "file": "verify_v288_native_pixels_v1.py",
       "SHA256": "5E878A714109BBC8168AFE497E625BA88D126D2C0FD4A60DA4B6666FD83B2E66"
+    },
+    {
+      "file": "verify_v289_postbattle_word_order_v1.py",
+      "SHA256": "8D9E5C2E8A52D51A2CE82F32B0FDAB3E904106BF69B12BA019A02DE6CB85E879"
+    },
+    {
+      "file": "verify_v290_font_baseline_v1.py",
+      "SHA256": "642AA85586C72641E08DADA0E5CC5D8F08842C26E784572550B69ABBB155B607"
     }
   ],
   "hash_scope": "Raw source-file bytes in bokuno_cn_v0.1_tools.zip; Git text line endings may be normalized."

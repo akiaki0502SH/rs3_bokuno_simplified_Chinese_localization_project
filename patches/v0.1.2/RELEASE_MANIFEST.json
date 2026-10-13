@@ -1,0 +1,63 @@
+{
+  "public_version": "0.1.2",
+  "tag": "v0.1.2",
+  "date": "2026-10-14",
+  "status": "prerelease",
+  "internal_build": "v290_font_baseline01",
+  "base": {
+    "game": "Bokuno Proto1.123 Japanese, headerless",
+    "bytes": 8388608,
+    "SHA256": "4793E1422295B8C13BA81B070B941288D36BE339FF20F914652CE63CC06F2DA0",
+    "CRC32": "7E165025"
+  },
+  "target": {
+    "bytes": 8388608,
+    "SHA256": "20B421AE2840FB23A40CC7A5B39692781190FE24FC8D1775E0045B7E8FA806F2",
+    "CRC32": "F086E805"
+  },
+  "patch_chain": "RS3 Japanese v1.1 headerless -> original Bokuno Proto1.123 IPS -> one CN IPS or BPS",
+  "source_rs3": {
+    "bytes": 4194304,
+    "CRC32": "6C50C2CF",
+    "SHA256": "3EFA91F18CC6CD012BC213FF421813C113DF51E62F68180CC54C782F21616897"
+  },
+  "no_ROM_in_distribution": true,
+  "IPS_and_BPS_results_match_target_byte_for_byte": true,
+  "manual_gameplay_acceptance_in_progress": true,
+  "patches": [
+    {
+      "file": "bokuno_cn_v0.1.2_Proto1.123.bps",
+      "bytes": 415000,
+      "SHA256": "A3717977CD290D1F04573C8EA07FD046426340EB97BA99F88A2206C9A4D569F1"
+    },
+    {
+      "file": "bokuno_cn_v0.1.2_Proto1.123.ips",
+      "bytes": 595658,
+      "SHA256": "7623BDEB34FDBEFD0B763BCDF01C9068EE6C1180789CB8CEA6E254E9C0AB2F96"
+    }
+  ],
+  "font_fix": {
+    "CJK_singles_checked": 2673,
+    "body_baseline_y": 13,
+    "body_glyphs_adjusted_in_v290": 60,
+    "short_stroke_design_restored": [
+      "一",
+      "二"
+    ],
+    "all_strokes_and_horizontal_positions_preserved": true,
+    "real_snapshot_baseline_cases": 3,
+    "normal_protection_cases": 10,
+    "right_edge_missing_pixels": 0
+  },
+  "postbattle_fix": {
+    "patterns": [
+      "习得{ACTUAL_SKILL_NAME}的奥义",
+      "获得了{ACTUAL_ITEM_NAME}"
+    ],
+    "native_display_cases": 7,
+    "evasion_branch_retained": true,
+    "item_destruction_path_retained": true,
+    "reward_and_skill_acquisition_processing_unchanged": true
+  },
+  "text_linebreak_cleanup_deferred": true
+}

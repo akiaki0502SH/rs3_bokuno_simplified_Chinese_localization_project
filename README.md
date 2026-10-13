@@ -2,11 +2,11 @@
 
 适用于《Romancing SaGa 3》改造版 **Bokuno Proto1.123** 的非官方简体中文补丁。
 
-**v0.1.1 · 2026-10-12 · 字体修复测试版**。当前审阅并授权的译文已接入，正在进行实际游玩查漏和验收。只分发汉化补丁与工具，**不提供ROM**。
+**v0.1.2 · 2026-10-14 · 战后提示与字体基线修复测试版**。当前审阅并授权的译文已接入，正在进行实际游玩查漏和验收。只分发汉化补丁与工具，**不提供ROM**。
 
 **本汉化补丁禁止用于商业用途。转载、分享或二次发布必须注明本项目名称、维护者 akiaki0502SH 及原始发布地址，并保留本声明与原有致谢。** 详见[使用与转载声明](NOTICE.md#汉化补丁使用与转载声明)。
 
-[下载0.1.1测试版](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/tag/v0.1.1) · [Bokuno原补丁下载](https://ux.getuploader.com/romancingsaga312/download/560) · [安装说明](docs/INSTALL.md) · [已知限制](docs/KNOWN_ISSUES.md) · [反馈问题](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/issues/new/choose)
+[下载0.1.2测试版](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/tag/v0.1.2) · [Bokuno原补丁下载](https://ux.getuploader.com/romancingsaga312/download/560) · [安装说明](docs/INSTALL.md) · [已知限制](docs/KNOWN_ISSUES.md) · [反馈问题](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/issues/new/choose)
 
 ## 开始使用
 
@@ -16,17 +16,16 @@
 
 **日文RS3 v1.1 → Bokuno Proto1.123 → 简体中文补丁**。推荐BPS，它会检查日文Bokuno底片是否匹配。
 
-[Windows整合包](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/download/v0.1.1/bokuno_cn_v0.1.1_windows.zip)含补丁、Flips和说明；已有打补丁工具可下载[纯补丁包](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/download/v0.1.1/bokuno_cn_v0.1.1_patch.zip)。两包都没有ROM。
+[Windows整合包](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/download/v0.1.2/bokuno_cn_v0.1.2_windows.zip)含补丁、Flips和说明；已有打补丁工具可下载[纯补丁包](https://github.com/akiaki0502SH/rs3_bokuno_simplified_Chinese_localization_project/releases/download/v0.1.2/bokuno_cn_v0.1.2_patch.zip)。两包都没有ROM。
 
 ## 本版内容
 
-- v0.1.1修复“吗、娜”等中文单字右侧缺笔画，以及不同来源字形造成的一像素错位。
-- 核对2673个中文单字，1719个按同一中线无损定位；原1620个右侧越界风险归零，笔画与字号保持。
-- 上下行同字的实际像素定位、六处正常游戏界面回归与独立重建检查通过。
+- 修正战后提示语序：“习得招架的／奥义”和“获得了／野生药”；技能和物品名仍读取实际名称。
+- 修复“王、形、阳”等字偏高1像素的问题，正文汉字统一底部位置；60个正文字无损调整，字号、笔画和横向位置保持。
+- 继承此前右侧缺笔画修复、已审阅名称与对白、技能／物品说明、菜单及商店标签修复。
+- 设置界面保留立体声／单声道和菜单光标速度，移除音乐试听行；保留谢拉哈封印句修订。
 
-- 接入已审阅的物品名、技／术名、说明、菜单标签，以及剧情和战斗对白译文。
-- 修正说明换行、文字裁边、部分字距与字形、藏宝图难度数字和商店买卖标签。
-- 设置界面保留立体声／单声道和菜单光标速度，移除音乐试听行；修订谢拉哈封印句。
+三份实际字体反馈、正常游戏路线、原生战后提示和完整补丁链检查通过。文本换行问题继续收集，留到最后集中整理。
 
 当前236条非空独立术名已接入，包含“黑猫”“玻璃之盾”和两条“魔道板解读”。这不表示全游戏所有自然场景已经验收，请帮助检查残留日文、错译、显示与流程问题。
 
@@ -37,9 +36,9 @@
 |Bokuno原作者补丁（先应用）|[原补丁下载页](https://ux.getuploader.com/romancingsaga312/download/560)|
 |安装、底片校验、存档说明|[安装指南](docs/INSTALL.md)|
 |当前限制与测试范围|[已知限制](docs/KNOWN_ISSUES.md)、[测试建议](docs/TESTING.md)|
-|0.1.1内容与变更|[版本记录](docs/CHANGELOG.md)|
+|0.1.2内容与变更|[版本记录](docs/CHANGELOG.md)|
 |汉化开发工具与Flips源码|[工具说明](docs/TOOLS.md)|
-|文件校验值|[SHA256SUMS](SHA256SUMS)、[版本清单](patches/v0.1.1/RELEASE_MANIFEST.json)|
+|文件校验值|[SHA256SUMS](SHA256SUMS)、[版本清单](patches/v0.1.2/RELEASE_MANIFEST.json)|
 
 ## 反馈
 
