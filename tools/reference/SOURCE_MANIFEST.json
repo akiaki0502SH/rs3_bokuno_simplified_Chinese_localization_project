@@ -1,8 +1,16 @@
 {
-  "date": "2026-10-14",
-  "internal_build": "v290",
+  "date": "2026-10-17",
+  "internal_build": "v292",
   "scope": "reference source snapshots, not standalone full build kit",
   "files": [
+    {
+      "file": "audit_layout_v3_prewrite_readonly_v1.py",
+      "SHA256": "3B3CD472061C51CB1D55B1EE70ACFDD17BA60F340A626962A8947F04B2E9EDB2"
+    },
+    {
+      "file": "audit_linebreak_feedback_readonly_v1.py",
+      "SHA256": "AC649E498DDACAC814393C758391946545AD5D6AAA2CC323348A0DB2DACB0030"
+    },
     {
       "file": "audit_missing_review_global_impact_20261011_v1.py",
       "SHA256": "EC2B51EA26B34A138756C1C4E1B633C481BBE7EBD2205D20DBEBDC349C8FA418"
@@ -80,6 +88,14 @@
       "SHA256": "F3EAF986694ADAE50C97E956CE8471F3FF9B5BD2BFA85982574162A6F85E0438"
     },
     {
+      "file": "build_v291_layout_v3_pilot_v1.py",
+      "SHA256": "D970CE50B814951C8F2789B207CA5C8B81208B3E475B7CABF1F98BAADB67F22C"
+    },
+    {
+      "file": "build_v292_reward_growth_v1.py",
+      "SHA256": "A9B224C02843BF39004257D13DC31421A6AF02B0ED7B640284A5C368747FC0A4"
+    },
+    {
       "file": "dry_run_encoding_plan.py",
       "SHA256": "DD7AF9B1226D2BFBAD87535E853CB35BC3D58514C271738E02C560A304EBC607"
     },
@@ -92,8 +108,20 @@
       "SHA256": "0B5B1DD14B20174AFAC2DF59B721A07C153DDE17A3B41C406F0475DA4F42B850"
     },
     {
+      "file": "layout_preview_core_v1.py",
+      "SHA256": "F7851254DCD7E285FF52050A4AA824EA64CCB532AD78107391347330B03EBC3B"
+    },
+    {
       "file": "mesen_v289_postbattle_probe_v1.lua",
       "SHA256": "E4FB79F3EAAAB1B96E34177FE3921B1951D070FDFA052669BCAE9ADFAAB603A7"
+    },
+    {
+      "file": "mesen_v291_window_smoke_v1.lua",
+      "SHA256": "ACC61B85AF066FC42543374BFB11F48068E52469AEF43D35F31DF23E05A2D556"
+    },
+    {
+      "file": "mesen_v292_reward_growth_probe_v1.lua",
+      "SHA256": "2095FE66831B634807EEF9F86AAC314AD1FC63B30EB4312B1169EB351BCB4D4E"
     },
     {
       "file": "package_v288_font_geometry_v1.py",
@@ -108,12 +136,40 @@
       "SHA256": "8418EDCB76D248FED1BDA3DF9690AC2C57AB4E3CED4B98987A89FE25180DC232"
     },
     {
+      "file": "package_v291_layout_pilot_v1.py",
+      "SHA256": "E06633871B6066391628C393D6B3AD99C5B43DB6286C79FF5D59ED056591F8A3"
+    },
+    {
+      "file": "package_v292_reward_growth_v1.py",
+      "SHA256": "79E643F3928DF012C2CD81437CBEDB7243C5A5FD9FA8C6906DE534CE80B6BEBA"
+    },
+    {
+      "file": "prepare_layout_review_readonly_v1.py",
+      "SHA256": "0BA7EC41FE213699E3E842968744E33E5A03A732F63579069DDAD327F7075E64"
+    },
+    {
       "file": "render_font_candidates.py",
       "SHA256": "8E4FA5EB2A68CF52085C9D16941AFF87990D043E52F904331151D9099C5CD7FF"
     },
     {
+      "file": "rs3_text_ops.py",
+      "SHA256": "32BF0D83BCF2037AD4128904CC2C92229AD88EC70FC82648B02E31C138C2BCBC"
+    },
+    {
       "file": "run_v289_postbattle_probe_v1.ps1",
       "SHA256": "883AE4C0205C340BD6ED2D9FF33F9BFF5D54E537F919C72E64FB7DC4961E7926"
+    },
+    {
+      "file": "run_v291_normal_regression_v1.py",
+      "SHA256": "A77448BDC96B2B9343058DACE8DA70834F3BE46FE97DE03E2619BE4A67668AB0"
+    },
+    {
+      "file": "run_v292_display_probes_v1.py",
+      "SHA256": "0F855DBA99D5D49AA7F8ABDCA2C59B07E40419B28A009D36904906F652C87F23"
+    },
+    {
+      "file": "run_v292_regressions_v1.py",
+      "SHA256": "D20F64E38CB5ADCDFB8BB32DADB7284D637A9AAF651090B93F7E89BAFDF2FEA4"
     },
     {
       "file": "scan_rom_inventory.py",
@@ -146,6 +202,14 @@
     {
       "file": "verify_v290_font_baseline_v1.py",
       "SHA256": "642AA85586C72641E08DADA0E5CC5D8F08842C26E784572550B69ABBB155B607"
+    },
+    {
+      "file": "verify_v291_layout_pilot_v1.py",
+      "SHA256": "AA56323AC2F65192EC9932893824FC4F8CDF99B8464BD968067DD8C2B9B06FD7"
+    },
+    {
+      "file": "verify_v292_reward_growth_v1.py",
+      "SHA256": "4938892B1CE5F0970C246C6EA19CA14C33DD8D631B1A32F97E50C5F18894E549"
     }
   ],
   "hash_scope": "Raw source-file bytes in bokuno_cn_v0.1_tools.zip; Git text line endings may be normalized."

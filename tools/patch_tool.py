@@ -1,8 +1,8 @@
-"""Create/verify translation patches or apply v0.1.2 through an external Flips."""
+"""Create/verify translation patches or apply v0.1.3 through an external Flips."""
 from pathlib import Path
 import argparse,hashlib,json,subprocess
 BASE='4793E1422295B8C13BA81B070B941288D36BE339FF20F914652CE63CC06F2DA0'
-TARGET='20B421AE2840FB23A40CC7A5B39692781190FE24FC8D1775E0045B7E8FA806F2'
+TARGET='26CBE0971C02D2908B486FF40E8616D4E70CB950ADAC8DEEB4632E3F311EAB7F'
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest().upper()
 def run(flips,args):
  r=subprocess.run([str(flips)]+[str(x)for x in args],capture_output=True)
@@ -16,15 +16,15 @@ def main():
   if sha(args.input)!=BASE:raise SystemExit('Input must be the exact headerless Japanese Bokuno Proto1.123. Run verify_rom.py first.')
   if Path(args.output).exists():raise SystemExit('Output already exists; choose a new name.')
   run(args.flips,['--apply',args.patch,args.input,args.output])
-  if sha(args.output)!=TARGET:raise SystemExit('Output SHA256 does not match the v0.1.2 target; retain the input and inspect this output.')
-  print('PASS: output matches simplified Chinese v0.1.2')
+  if sha(args.output)!=TARGET:raise SystemExit('Output SHA256 does not match the v0.1.3 target; retain the input and inspect this output.')
+  print('PASS: output matches simplified Chinese v0.1.3')
  else:
-  if sha(args.base)!=BASE or sha(args.target)!=TARGET:raise SystemExit('The base or target does not match v0.1.2.')
+  if sha(args.base)!=BASE or sha(args.target)!=TARGET:raise SystemExit('The base or target does not match v0.1.3.')
   dest=Path(args.output_dir).resolve()
   if dest.exists():raise SystemExit('Output directory already exists; choose a new directory.')
   dest.mkdir(parents=True);result=[]
   for fmt in ['ips','bps']:
-   patch=dest/f'bokuno_cn_v0.1.2_Proto1.123.{fmt}';check=dest/f'private_verification_{fmt}.sfc'
+   patch=dest/f'bokuno_cn_v0.1.3_Proto1.123.{fmt}';check=dest/f'private_verification_{fmt}.sfc'
    run(args.flips,['--create','--'+fmt,args.base,args.target,patch]);run(args.flips,['--apply',patch,args.base,check])
    if sha(check)!=TARGET:raise SystemExit('Roundtrip failed; do not distribute these outputs.')
    # Delete only the exact generated verification file after a checked roundtrip.

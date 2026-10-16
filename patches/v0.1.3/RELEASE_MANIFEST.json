@@ -1,0 +1,84 @@
+{
+  "public_version": "0.1.3",
+  "tag": "v0.1.3",
+  "date": "2026-10-17",
+  "status": "prerelease",
+  "internal_build": "v292_reward_growth01",
+  "base": {
+    "game": "Bokuno Proto1.123 Japanese, headerless",
+    "bytes": 8388608,
+    "SHA256": "4793E1422295B8C13BA81B070B941288D36BE339FF20F914652CE63CC06F2DA0",
+    "CRC32": "7E165025"
+  },
+  "target": {
+    "bytes": 8388608,
+    "SHA256": "26CBE0971C02D2908B486FF40E8616D4E70CB950ADAC8DEEB4632E3F311EAB7F",
+    "CRC32": "9EA2DE41"
+  },
+  "patch_chain": "RS3 Japanese v1.1 headerless -> original Bokuno Proto1.123 IPS -> one CN IPS or BPS",
+  "source_rs3": {
+    "bytes": 4194304,
+    "CRC32": "6C50C2CF",
+    "SHA256": "3EFA91F18CC6CD012BC213FF421813C113DF51E62F68180CC54C782F21616897"
+  },
+  "no_ROM_in_distribution": true,
+  "IPS_and_BPS_results_match_target_byte_for_byte": true,
+  "manual_gameplay_acceptance_in_progress": true,
+  "patches": [
+    {
+      "file": "bokuno_cn_v0.1.3_Proto1.123.bps",
+      "bytes": 418135,
+      "SHA256": "799715C0B7E0DBE34E01DD0D54A0F838B22A009F47F6E499141897DE6CDF5439"
+    },
+    {
+      "file": "bokuno_cn_v0.1.3_Proto1.123.ips",
+      "bytes": 604140,
+      "SHA256": "1FC4DCF63CCE5B926BD48A204D0C2D67927BCE1948493E9B0C37ACA2DFC728AF"
+    }
+  ],
+  "font_fix": {
+    "CJK_singles_checked": 2673,
+    "body_baseline_y": 13,
+    "body_glyphs_adjusted_in_v290": 60,
+    "short_stroke_design_restored": [
+      "一",
+      "二"
+    ],
+    "all_strokes_and_horizontal_positions_preserved": true,
+    "real_snapshot_baseline_cases": 3,
+    "normal_protection_cases": 10,
+    "right_edge_missing_pixels": 0
+  },
+  "postbattle_fix": {
+    "patterns": [
+      "习得{ACTUAL_SKILL_NAME}的奥义",
+      "获得了{ACTUAL_ITEM_NAME}"
+    ],
+    "native_display_cases": 7,
+    "evasion_branch_retained": true,
+    "item_destruction_path_retained": true,
+    "reward_and_skill_acquisition_processing_unchanged": true
+  },
+  "layout_pilot": {
+    "dialogue_records": 261,
+    "fixed_description_records": 50,
+    "total": 311,
+    "remaining_default_v3_changes_not_compiled": 3271,
+    "existing_shadow_payloads_preserved": true
+  },
+  "reward_growth_fix": {
+    "weapon_group": "弓・铳",
+    "shared_bow_gun_growth_retained": true,
+    "statistics": [
+      "技力",
+      "术力"
+    ],
+    "money_pattern": "获得了{AMOUNT}奥拉姆",
+    "native_display_pairs": 20,
+    "getter_length_indices_checked": 117,
+    "legacy_display_cases": 7,
+    "normal_input_pairs": 13,
+    "reward_calculations_and_gameplay_rules_unchanged": true,
+    "natural_full_battle_settlement_manual_verification_pending": true
+  }
+}
