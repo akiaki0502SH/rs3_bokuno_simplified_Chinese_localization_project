@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "internal_build": "v292",
+  "date": "2026-10-18",
+  "internal_build": "v296",
   "scope": "reference source snapshots, not standalone full build kit",
   "files": [
     {
@@ -34,6 +34,10 @@
     {
       "file": "build_translation_patch_v1.py",
       "SHA256": "EB2902658D78E7A9EF3A2111F6C6E52CE8286D3BE85C5173F0DBB95E92F50C5C"
+    },
+    {
+      "file": "build_v265_vm_lookahead_fix_v1.py",
+      "SHA256": "6C1BC588C18EDCF5C2BCC01FDFD5214707BA90B7DCCA8F809C8E05FAC21A256E"
     },
     {
       "file": "build_v281_default_name_v1.py",
@@ -96,8 +100,28 @@
       "SHA256": "A9B224C02843BF39004257D13DC31421A6AF02B0ED7B640284A5C368747FC0A4"
     },
     {
+      "file": "build_v293_title_prologue_v1.py",
+      "SHA256": "B1119374D677791E55C96B16586343443698E9A1638214194B4A21AB08A80F86"
+    },
+    {
+      "file": "build_v294_digit_font_v1.py",
+      "SHA256": "21981C9E046AF5B9BD0BC925A963735C916C409D5C7F3487F52DDD807A699F1D"
+    },
+    {
+      "file": "build_v295_inn_padding_v1.py",
+      "SHA256": "64C7A158C7632913ED3EDEAC5EA6E7EC92FA3FF42F34B822ACB045E6DC32B6FD"
+    },
+    {
+      "file": "build_v296_shadow_range_v1.py",
+      "SHA256": "BB5A849D57B5DD4AF46A03A67D71F20C538AAD5FF23D129F89C8E7241CC287EB"
+    },
+    {
       "file": "dry_run_encoding_plan.py",
       "SHA256": "DD7AF9B1226D2BFBAD87535E853CB35BC3D58514C271738E02C560A304EBC607"
+    },
+    {
+      "file": "extract_title_prologue_v1.py",
+      "SHA256": "8C27A579C38F870734BE8C054DDA9224754E76EA01BF0FA19EF68B4F96D22AF0"
     },
     {
       "file": "font_baseline_v1.py",
@@ -124,6 +148,18 @@
       "SHA256": "2095FE66831B634807EEF9F86AAC314AD1FC63B30EB4312B1169EB351BCB4D4E"
     },
     {
+      "file": "mesen_v293_title_boot_trace_v1.lua",
+      "SHA256": "57C112C812F24195C5B8AD9891DA6253E18E78E9FD9779232C6874EDCD19325A"
+    },
+    {
+      "file": "mesen_v293_title_verify_v1.lua",
+      "SHA256": "AD7FF5A63897D6A01C9423CF8CEE728D8DE75A2E3D2C1FD0D7BC381C4B0D2AE4"
+    },
+    {
+      "file": "mesen_v295_number_copy_v1.lua",
+      "SHA256": "5D54A5DB9D1089362F59CB0196EF254EB1871D0D69FC042877AEF99741B507C1"
+    },
+    {
       "file": "package_v288_font_geometry_v1.py",
       "SHA256": "7578047FC1DD2BFDCB84AEF11BF374C089F65C042A127A775A56FAAF14923E80"
     },
@@ -144,8 +180,48 @@
       "SHA256": "79E643F3928DF012C2CD81437CBEDB7243C5A5FD9FA8C6906DE534CE80B6BEBA"
     },
     {
+      "file": "package_v293_title_prologue_v1.py",
+      "SHA256": "B5F550857662ACB43288B6E794F1CB8F536E6F9459F846FEA64434D86735508B"
+    },
+    {
+      "file": "package_v294_digit_font_v1.py",
+      "SHA256": "838B75DE3D74A9BC8A2C1BCDE283221316EFBDEAC3095229816C5D9B88FB5B47"
+    },
+    {
+      "file": "package_v295_inn_padding_v1.py",
+      "SHA256": "F6C1DA5EA0259EDA5D19E4F25D965B23C2206529A1845BA1293E440B47D41652"
+    },
+    {
+      "file": "package_v295_patch_tools_v1.py",
+      "SHA256": "7963E496737FFCBF9E51B6277AA689317538791BA42F0D067B7F9BB5DA0E81B0"
+    },
+    {
+      "file": "package_v296_patch_tools_v1.py",
+      "SHA256": "60D1682E5DB368E912B78A0455CEE00DC0F04DFAFE2BFBFF41545A2421BCBEF3"
+    },
+    {
+      "file": "package_v296_shadow_range_v1.py",
+      "SHA256": "78BF093BECF981F9FF79E7F25E6F31AA6C67F19E33F7A27EA31612A6C2541EE6"
+    },
+    {
       "file": "prepare_layout_review_readonly_v1.py",
       "SHA256": "0BA7EC41FE213699E3E842968744E33E5A03A732F63579069DDAD327F7075E64"
+    },
+    {
+      "file": "preview_dialogue_digits_v1.py",
+      "SHA256": "B66359476058265E393159E5D6067845000C6421B7D728576EC5A87905E6896A"
+    },
+    {
+      "file": "register_v293_title_sources_v1.py",
+      "SHA256": "E7D65A7CC851CB2FB2C450FA68AE94FCBD312F0A0C75C573F311B0AED54BAFBB"
+    },
+    {
+      "file": "register_v294_digit_sources_v1.py",
+      "SHA256": "50BBA716BBCF868DA6EBAE652D5CD6CABE1215783D0F0C738FF4A039D185507C"
+    },
+    {
+      "file": "register_v295_inn_sources_v1.py",
+      "SHA256": "3F9146190C66C26BDD409C7CD33CB98A2B7BB5AD2934E969FC234F3A89A3597C"
     },
     {
       "file": "render_font_candidates.py",
@@ -172,12 +248,24 @@
       "SHA256": "D20F64E38CB5ADCDFB8BB32DADB7284D637A9AAF651090B93F7E89BAFDF2FEA4"
     },
     {
+      "file": "run_v293_title_regressions_v1.py",
+      "SHA256": "6F9950E952DC40E906CF53F499C32F851F641AE86A051CACF4FE9AD7A44E20D0"
+    },
+    {
+      "file": "run_v294_digit_checks_v1.py",
+      "SHA256": "1619702AB01E59208FE4E950DE6E47240D09EE3204533F62EC2EAFB758879BC3"
+    },
+    {
       "file": "scan_rom_inventory.py",
       "SHA256": "4DEBE750FA9F26D5DC345F8496F361E918C31BB77285C3D185F9B38322A7D2E4"
     },
     {
       "file": "snes9x_v266_regression_runner_v1.py",
       "SHA256": "883C3581B37B6963D44ACED6F9EAE9371F536D54B44041D47C63C0DDEFC8A051"
+    },
+    {
+      "file": "snes9x_v293_title_coldboot_v1.py",
+      "SHA256": "031B20A9D4B443E25F4E74F02406BB4C8A6EB341BD3432AC563CC2325B18312E"
     },
     {
       "file": "sync_v286_four_spell_sources_v1.py",
@@ -210,6 +298,22 @@
     {
       "file": "verify_v292_reward_growth_v1.py",
       "SHA256": "4938892B1CE5F0970C246C6EA19CA14C33DD8D631B1A32F97E50C5F18894E549"
+    },
+    {
+      "file": "verify_v293_title_prologue_v1.py",
+      "SHA256": "59201BB1F4D8D65CA10C6CDAC0540D21F11F7A28FE83E5B9AF89A76F1BFE4C44"
+    },
+    {
+      "file": "verify_v294_digit_font_v1.py",
+      "SHA256": "82B2DF87EAF95070F75F67B4809841EC57544B23FA6618CA50E976D54AA30A81"
+    },
+    {
+      "file": "verify_v295_inn_padding_v1.py",
+      "SHA256": "1A48D31C66DDC54EFEC2EB86B11205A0F6473E1056ECEF236BB712E7F0EE2D35"
+    },
+    {
+      "file": "verify_v296_shadow_range_v1.py",
+      "SHA256": "974C8E5FEAE4610D7E8AF6BDCC05883D14F2B6081361A0A034038AB32ABAF35C"
     }
   ],
   "hash_scope": "Raw source-file bytes in bokuno_cn_v0.1_tools.zip; Git text line endings may be normalized."
